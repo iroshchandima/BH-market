@@ -1,0 +1,100 @@
+name: bh_int
+description: "A new Flutter project."
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.3.0 <4.0.0'
+
+#--------- package ---------#
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Utility Packages
+
+  http: ^1.2.1
+  intl: ^0.19.0
+  logger: ^2.2.0
+  url_launcher: ^6.2.5
+  flutter_native_splash: ^2.4.0
+  smooth_page_indicator: ^1.1.0
+  carousel_slider: ^4.2.1
+  provider: ^6.1.1
+  community_material_icon: ^5.9.55
+  flutter_vector_icons: ^2.0.0
+  flutter_json: ^0.0.2
+  flutter_staggered_grid_view: ^0.4.0
+  flutter_rating_bar: ^4.0.1
+  hive: ^2.2.3
+  hive_flutter: ^1.1.0
+  flutter_slidable: ^3.1.0
+  country_picker: ^2.0.25
+  country_code_picker: ^3.0.0
+  mailer: ^6.1.0
+  google_fonts: ^6.1.0
+
+
+
+  #Icons
+  iconsax: ^0.0.8
+  cupertino_icons: ^1.0.6
+
+  # satte Management
+
+  get: ^4.6.6
+  get_storage: ^2.1.1
+
+  #product Specific
+
+
+  #---------- ./ PACKAGES END ----------#
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+  flutter_lints: ^3.0.0
+
+flutter:
+
+  uses-material-design: true
+
+  #--------------- LOCAL ASSETS ---------#
+
+  assets:
+    - assets/icons/brands/
+    - assets/images/
+    - assets/logos/
+    - assets/on_boarding_image/
+    - assets/images/animations/
+    - assets/icons/Categories/
+    - assets/banners/
+    - assets/products/
+    - assets/json/
+
+  #--------- LOCAL FONTS --------#
+
+  fonts:
+    - family: Poppins
+      fonts:
+        - asset: assets/fonts/Poppins-Light.ttf
+          weight: 300
+        - asset: assets/fonts/Poppins-Regular.ttf
+          weight: 300
+        - asset: assets/fonts/Poppins-Italic.ttf
+          style: italic
+        - asset: assets/fonts/Poppins-Medium.ttf
+          weight: 500
+        - asset: assets/fonts/Poppins-MediumItalic.ttf
+          weight: 500
+          style: italic
+        - asset: assets/fonts/Poppins-SemiBold.ttf
+          weight: 600
+        - asset: assets/fonts/Poppins-SemiBoldItalic.ttf
+          weight: 800
+          style: italic
+    - family: coolvetica
+      fonts:
+        - asset: assets/fonts/coolvetica rg.otf
+        - asset: assets/fonts/coolvetica rg it.otf
